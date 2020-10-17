@@ -21,7 +21,7 @@ h1
     background: no-repeat center 50% url(backgroundabstract.jpg);
     width:350px;
     margin: auto;
-    border: 6px #601352 ridge;
+    border: 5px #ffcafc ridge;
     padding:1%;
 }
 
@@ -33,9 +33,9 @@ h1
     font-size: 2.2em;
     background-color: #2c1419;
     border:none;
-    color:#d75cd5;
+    color:#ffcafc;
     padding:10px;
-    width:93%;
+    width:94%;
     margin-bottom: 5%;
 }
 
@@ -55,18 +55,14 @@ button
     text-align:center;
     font-family: 'Audiowide', cursive;
     font-size: 2em;
-    color: #d75cd5;
+    color:#ffaeff;
     background-color: #2a1d31;
     font-weight: lighter;
     padding:2%;
     margin: 8%;
-    width: 90%;
+    width: 60px;
     height: 90px;
 }
 
-button:active
-{
-    color:#ffaeff;
-}
 
 
