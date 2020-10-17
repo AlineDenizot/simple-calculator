@@ -33,6 +33,17 @@ calculResult.onclick = function (e) {
      document.getElementById('result').value = "" 
  } 
 
+ //Efface le dernier chiffre
+ const resetOneBtn = document.getElementById('reset-one');
+ 
+ resetOneBtn.onclick = function (e) { 
+     e.preventDefault();
+     let display = document.getElementById('result');
+    let calcul = display.value;
+    let result = calcul.slice(0, -1);
+    display.value = result;
+ } 
+
 
 
     
